@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.20rem;
+    background-color: white;
+    color: black;
+}
+
+
+
+/* Header */
+header {
+    background-color: #DE1F27;
+    padding: 0.6em 0;
+}
+
+#logo {
+    max-width: 250px;
+    width: 100%;
+}
+
+.nav-bar-list {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+.nav-list-item {
+    margin: 0 1em;
+}
+
+.nav-item-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 0.3em;
+}
+
+.uppercase-with-spacing {
+    text-transform: uppercase;
+    letter-spacing: .25em;
+}
+
+.current-page {
+    background-color: white;
+    color:#DE1F27
+}
+
+.nav-item-link:hover,
+.nav-item-link:focus {
+    color: black;
+}
+
+.current-page:hover,
+.current-page:focus {
+    color: #DE1F27;
+}
+/* End of Header */
+
+/* Containers */
+.flex-container, .products {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* End of Containers */
+
+/* Main */
+.hero {
+    position: relative;
+    background-image: url("./images/hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.product-hero {
+    background-image: url("./images/product-hero-image.jpg");
+}
+
+.products h2 {
+    margin-top: 2em;
+}
+
+.hero-button {
+    position: absolute;
+    bottom: 2.5em;
+    left: 50%;
+    transform: translateX(-50%);   
+}
+
+span {
+    color: #DE1F27;
+}
+
+.product-card {
+    width: 30%;
+    font-size: 1rem;
+}
+
+.product-image {
+    width: 100%;
+}
+
+.product-name, .product-price, .product-button {
+    margin: 0.5em 0;
+}
+
+.product-button {
+    display: block;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 0.80em 1.5em;
+    font-size: 0.80rem;
+    cursor: pointer;
+}
+/* End of Main */
+
+/* Footer */
+footer {
+    margin: 3em 0 1em 0;
+}
+
+.footer-info p{
+    font-size: 0.75rem;
+}
+
+.footer-info h6,
+.footer-info p {
+    margin: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover,
+footer a:focus {
+    color: #DE1F27;
+}
+/* End of Footer */
+
+/* Products Link */
+.size-button {
+    background-color: #DDDADF;
+    color: black;
+    border: none;
+    font-weight: bold;
+    padding: 1em;
+    margin: 0.2em;
+    cursor: pointer;
+}
+
+.selected-button {
+    background-color: black;
+    color: white;
+}
+
+.size-button:hover,
+.size-button:focus {
+    background-color: black;
+    color: white;
+}
+/* End of Products Link */
